@@ -1,9 +1,8 @@
-package com.franzoso.service;
+package com.franzoso.services;
 
 import com.franzoso.entities.Person;
 import com.franzoso.exceptions.BusinessException;
 import com.franzoso.repositories.PersonRepository;
-import com.franzoso.services.PersonService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
@@ -23,7 +22,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.mockito.Mockito.*;
 
 @ExtendWith(MockitoExtension.class)
-public class PessoaServiceTest {
+public class PersonServiceTest {
 
     @InjectMocks
     PersonService service;
